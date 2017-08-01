@@ -1,0 +1,104 @@
+.custom {}
+.custom-glyph-1:after { 
+  background-image: url('http://i.imgur.com/x6QOVS0.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-2:after { 
+  background-image: url('http://i.imgur.com/uPsGR6H.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-3:after { 
+  background-image: url('http://i.imgur.com/WqDsHgA.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-4:after { 
+  background-image: url('http://i.imgur.com/5IcWeMj.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-5:after { 
+  background-image: url('http://i.imgur.com/WV0iVrD.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-6:after { 
+  background-image: url('http://i.imgur.com/QZrVFCU.png'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-7:after { 
+  background-image: url('http://i.imgur.com/ZlCaXtN.png'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}
+.custom {}
+.custom-glyph-8:after { 
+  background-image: url('...'); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content:'\00a0'; 
+  display:inline-block; 
+
+  width: 2em; 
+  height: 2em; 
+  background-size: 2em; 
+}

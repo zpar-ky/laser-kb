@@ -1,6 +1,8 @@
 # A GMK Laser inspired case, in a custom 85-key handwired ortholinear package.
 
-this readme is a clone of L-A-S-E-R.notes.md
+this readme is a more updated clone of [L-A-S-E-R.notes.md](../master/L-A-S-E-R.notes.md)  
+### NOTE! IF JSON FILES ARE MORE RECENT THAN THE QMK JSON, I WILL NEED TO EDIT THE FIRMWARE FILES  
+this is mostly just a reminder to me
 
 Design and print case with http://builder.swillkb.com/ , cuts by lasergist  
 Philosophy for layers is the ability to use only one hand for lower and raise keys.  

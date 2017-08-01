@@ -16,7 +16,12 @@ Colors: Blue open layer, Purple tint closed layers, Blue bottom layer
 swillkb settings: http://i.imgur.com/jhe3P6L.jpg  
 underside design:   
 
-guide: https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/  
+## guides used  
+https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/  
+https://github.com/qmk/qmk_firmware/blob/0787d70e55a668244445d9328f3cda2303cc6877/docs/hand_wire.md  
+
+edits
+------
 
 edit after getting acrylics:
 didn't have enough space with 4 ~3mm thick acrylics, so ordered another open layer that's like ~4mm or so. Also didn't like the way the LASER looked on the bottom plate, so reversed it and ordered it along with the ~4mm open layer. Both are the blue tint, and so far it's going to be:  
@@ -29,4 +34,4 @@ Good news is the spacers and screws I ordered fit perfectly. However, I top-swit
 Teensy 2.0 planned pinout: (going from top left down)  
 B0, B1, B2, B3, B7, D0, D1, D2, D3, C6, C7, D5, D7, B4, B5, B6, F7, F6, F5, F4, F1, F0  
 gives 22 pins for 17x5 matrix  
-Build with http://kbfirmware.com/
+Build with http://kbfirmware.com/, using [these settings](../master/kbfirmware%20qmk/laser%20kbfirmware.json)

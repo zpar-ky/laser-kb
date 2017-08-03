@@ -37,3 +37,5 @@ Teensy 2.0 planned pinout: (going from top left down)
 B0, B1, B2, B3, B7, D0, D1, D2, D3, C6, C7, D5, D7, B4, B5, B6, F7, F6, F5, F4, F1, F0  
 gives 22 pins for 17x5 matrix  
 Build with http://kbfirmware.com/, using [these settings](../master/kbfirmware%20qmk/laser%20kbfirmware.json)
+
+Edit 8/3/17 - Started working on a pcb just for fun

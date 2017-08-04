@@ -1,40 +1,59 @@
-# A GMK Laser inspired case, in a custom 85-key handwired ortholinear package.
-
-this readme is a more updated clone of [L-A-S-E-R.notes.md](../master/L-A-S-E-R.notes.md)  
+# Laser-85
+### A GMK Laser inspired case, in a custom 85-key handwired ortholinear package.
 
 ## the plan  
 
-Design and print case with http://builder.swillkb.com/ , cuts by lasergist  
-Philosophy for layers is the ability to use only one hand for lower and raise keys.  
-The display plan is have the top display be what it will physically look like, and the bottom copy to be what the layers will be  
-Unfortunately, all the novelty caps are R1, which might look bad on R4. I'll have to see what it comes out to look like, and if anything, go with the planck blanks.
-  
-Switch plate: Cut switch plate with lasergist @ 1.5mm  
-Acrylic sandwich + bottom: Cut 2 open plates, 3 closed plates, and 1 bottom plate @ ~3mm each from Ponoko (Ponoko uses inches) to have ~12mm of inside space  
-Total case height = ~15mm  
-Colors: Blue open layer, Purple tint closed layers, Blue bottom layer
+Design and print case with http://builder.swillkb.com/, steel switchplate cut by Lasergist, acrylic cut by Ponoko.    
+Philosophy for layers is the ability to only have to use one hand while using modifiers.  
 
-swillkb settings: http://i.imgur.com/jhe3P6L.jpg  
-underside design:   
+| Layer | Type | Material | Width |
+|:---:  |:---: |:---:     |:---:  |
+| 1 | Switch | Steel | 1.5mm |
+| 2 | Closed | Purple Acrylic | ~3mm  |
+| 3 | Open   | Purple Acrylic | ~3mm  |
+| 4 | Open   | Blue Acrylic   | ~4mm  |
+| 5 | Closed | Purple Acrylic | ~3mm  |
+| 6 | Closed | Purple Acrylic | ~3mm  |
+| 7 | Bottom | Blue Acrylic   | ~4mm  |
+|   |        | Total Inside   | ~13mm |
+|   |        | Total          | ~20mm |
+
+swillkb settings:  
+![alt text](http://i.imgur.com/jhe3P6L.jpg "SwillKB Settings")
+underside design:  
+![alt text](http://i.imgur.com/UIby4OW.jpg "LASER")
+
+## programming  
+Teensy 2.0 planned pinout: (going from top left down)  
+B0, B1, B2, B3, B7, D0, D1, D2, D3, C6, C7, D5, D7, B4, B5, B6, F7, F6, F5, F4, F1, F0  
+gives 22 pins for 17x5 matrix  
+Build with http://kbfirmware.com/, using [these settings](../master/kbfirmware%20qmk/laser%20kbfirmware.json) (outdated, use as base or more updated qmk files)
+
+Itemlist
+------
+
+| Item           | Product name          | Price   | Link                                                  | Comments               |
+|:---------------|:---------------------:|:-------:|:-----------------------------------------------------:|:-----------------------|
+| Switches       | Gateron blacks        | $24.99  | [link](https://www.massdrop.com/buy/gateron-switches) | Bought from massdrop   |
+| Diodes         | 1N4148 diode          | $5.99   | [link](https://www.amazon.com/gp/product/B06XB1R2NK)  | 300pcs                 |
+| Insulated Wire | Striveday 22AWG       | $7.99   | [link](https://www.amazon.com/gp/product/B01IBAIL60)  | 5m purple              |
+| Solder         | Sywon 60/40           | $7.99   | [link](https://www.amazon.com/gp/product/B01LVTTL9E)  | 0.039" dia, 50g        |
+| Soldering Tool | Sywon 60w kit         | $32.99  | [link](https://www.amazon.com/gp/product/B01N4571Q6)  | includes temp control  |
+| Wire Stripper  | Irwin Vise-Grip       | $10.70  | [link](https://www.amazon.com/gp/product/B000JNNWQ2)  |                        |
+| Spacers        | M2/M3 Brass Standoffs | $14.99  | [link](https://www.amazon.com/gp/product/B00MNG2T6W)  | yeah this was overkill |
+| Screws         | Rion Tech Screw Kit   | $9.99   | [link](https://www.amazon.com/gp/product/B072NZY69F)  | similarly overkill     |
+| USB Extender   | YCS Basics Mini-B M-F | $7.99   | [link](https://www.amazon.com/gp/product/B01CKMGD10)  |                        |
+| Controller     | Teensy 2.0            | $20.95  | [link](https://www.amazon.com/gp/product/B00NC43256)  |                        |
+| Switch plate   | Cut by lasergist      | $81.34  | [link](https://www.lasergist.com)                     | they ship from Greece  |
+| Acrylics       | Cut by ponoko         | $91.07  |                                                       | first shot             |
+| Acrylics       | Cut by ponoko         | $54.92  |                                                       | second shot            |
+| Keycap Set     | GMK Laser             | $??.??  |                                                       | :)                     |
+
+Final thoughts
+------
+
+
 
 ## guides used  
 https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/  
 https://github.com/qmk/qmk_firmware/blob/0787d70e55a668244445d9328f3cda2303cc6877/docs/hand_wire.md  
-
-edits
-------
-
-edit after getting acrylics:
-didn't have enough space with 4 ~3mm thick acrylics, so ordered another open layer that's like ~4mm or so. Also didn't like the way the LASER looked on the bottom plate, so reversed it and ordered it along with the ~4mm open layer. Both are the blue tint, and so far it's going to be:  
-[ switch - closed -  open  - open - closed - closed - bottom ]  
-[ steel  - purple - purple - blue - purple - purple -  blue  ]
-
-Good news is the spacers and screws I ordered fit perfectly. However, I top-switched the gateron clear with cherry black tops for aesthetic and I think those don't fit as snugly in the switch plate as I hoped. I'm going to leave it as-is and be careful if I ever remove the caps. If I ever need to hot glue the switches I'll be pissed  
-
-
-Teensy 2.0 planned pinout: (going from top left down)  
-B0, B1, B2, B3, B7, D0, D1, D2, D3, C6, C7, D5, D7, B4, B5, B6, F7, F6, F5, F4, F1, F0  
-gives 22 pins for 17x5 matrix  
-Build with http://kbfirmware.com/, using [these settings](../master/kbfirmware%20qmk/laser%20kbfirmware.json)
-
-Edit 8/3/17 - Started working on a pcb just for fun

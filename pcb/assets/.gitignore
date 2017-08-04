@@ -1,3 +1,4 @@
 #ignore all these asset files
 *
 !/.gitignore
+assets/**

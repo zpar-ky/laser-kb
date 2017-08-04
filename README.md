@@ -1,15 +1,14 @@
 # A GMK Laser inspired case, in a custom 85-key handwired ortholinear package.
 
 this readme is a more updated clone of [L-A-S-E-R.notes.md](../master/L-A-S-E-R.notes.md)  
-### NOTE! IF JSON FILES ARE MORE RECENT THAN THE QMK JSON, I WILL NEED TO EDIT THE FIRMWARE FILES  
-this is mostly just a reminder to me
+
+## the plan  
 
 Design and print case with http://builder.swillkb.com/ , cuts by lasergist  
 Philosophy for layers is the ability to use only one hand for lower and raise keys.  
 The display plan is have the top display be what it will physically look like, and the bottom copy to be what the layers will be  
 Unfortunately, all the novelty caps are R1, which might look bad on R4. I'll have to see what it comes out to look like, and if anything, go with the planck blanks.
-
-Plan:  
+  
 Switch plate: Cut switch plate with lasergist @ 1.5mm  
 Acrylic sandwich + bottom: Cut 2 open plates, 3 closed plates, and 1 bottom plate @ ~3mm each from Ponoko (Ponoko uses inches) to have ~12mm of inside space  
 Total case height = ~15mm  

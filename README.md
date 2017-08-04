@@ -6,17 +6,17 @@
 Design and print case with http://builder.swillkb.com/, steel switchplate cut by Lasergist, acrylic cut by Ponoko.    
 Philosophy for layers is the ability to only have to use one hand while using modifiers.  
 
-| Layer | Type | Material | Width |
-|:---:  |:---: |:---:     |:---:  |
-| 1 | Switch | Steel | 1.5mm |
-| 2 | Closed | Purple Acrylic | ~3mm  |
-| 3 | Open   | Purple Acrylic | ~3mm  |
-| 4 | Open   | Blue Acrylic   | ~4mm  |
-| 5 | Closed | Purple Acrylic | ~3mm  |
-| 6 | Closed | Purple Acrylic | ~3mm  |
-| 7 | Bottom | Blue Acrylic   | ~4mm  |
-|   |        | Total Inside   | ~13mm |
-|   |        | Total          | ~20mm |
+| Layer | Type   | Material       | Width |
+|:-----:|:------:|:--------------:|:-----:|
+|   1   | Switch | Steel          | 1.5mm |
+|   2   | Closed | Purple Acrylic | ~3mm  |
+|   3   | Open   | Purple Acrylic | ~3mm  |
+|   4   | Open   | Blue Acrylic   | ~4mm  |
+|   5   | Closed | Purple Acrylic | ~3mm  |
+|   6   | Closed | Purple Acrylic | ~3mm  |
+|   7   | Bottom | Blue Acrylic   | ~4mm  |
+|       |        | Total Inside   | ~13mm |
+|       |        | Total          | ~20mm |
 
 swillkb settings:  
 ![alt text](http://i.imgur.com/jhe3P6L.jpg "SwillKB Settings")
@@ -57,3 +57,4 @@ Final thoughts
 ## guides used  
 https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/  
 https://github.com/qmk/qmk_firmware/blob/0787d70e55a668244445d9328f3cda2303cc6877/docs/hand_wire.md  
+https://github.com/ruiqimao/keyboard-pcb-guide  

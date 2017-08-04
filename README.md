@@ -45,9 +45,9 @@ Itemlist
 | USB Extender   | YCS Basics Mini-B M-F | $7.99   | [link](https://www.amazon.com/gp/product/B01CKMGD10)  |                        |
 | Controller     | Teensy 2.0            | $20.95  | [link](https://www.amazon.com/gp/product/B00NC43256)  |                        |
 | Switch plate   | Cut by lasergist      | $81.34  | [link](https://www.lasergist.com)                     | they ship from Greece  |
-| Acrylics       | Cut by ponoko         | $91.07  |                                                       | first shot             |
-| Acrylics       | Cut by ponoko         | $54.92  |                                                       | second shot            |
-| Keycap Set     | GMK Laser             | $??.??  |                                                       | :)                     |
+| Acrylics       | Cut by ponoko         | $91.07  | [link](https://www.ponoko.com)                        | first shot             |
+| Acrylics       | Cut by ponoko         | $54.92  | [link](https://www.ponoko.com)                        | second shot            |
+| Keycap Set     | GMK Laser             | $??.??  | [link](https://www.massdrop.com/talk/455/laser-gmk)   | :)                     |
 
 Final thoughts
 ------

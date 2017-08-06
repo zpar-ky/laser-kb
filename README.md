@@ -47,7 +47,10 @@ Itemlist
 | Switch plate   | Cut by lasergist      | $81.34  | [link](https://www.lasergist.com)                     | they ship from Greece  |
 | Acrylics       | Cut by ponoko         | $91.07  | [link](https://www.ponoko.com)                        | first shot             |
 | Acrylics       | Cut by ponoko         | $54.92  | [link](https://www.ponoko.com)                        | second shot            |
-| Keycap Set     | GMK Laser             | $??.??  | [link](https://www.massdrop.com/talk/455/laser-gmk)   | :)                     |
+| Keycap Set     | GMK Laser             | $??.??  | [link](https://www.massdrop.com/talk/455/laser-gmk)   |                        |
+| Total          |                       | $371.9  |                                                       | not including caps yet |
+
+Total would be less if tools are already owned, and also some items (like 300 pack of diodes) aren't used in entirety and the real cost is less
 
 Final thoughts
 ------

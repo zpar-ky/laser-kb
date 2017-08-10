@@ -1,4 +1,4 @@
-#include "kb.h"
+#include "laser-85.h"
 
 #define _______ KC_TRNS
 // if you want to make a new layer template for comments, copy one comment layer thing and run a regex: [^\s\|]
@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	* | Tab |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  | Del |  7  |  8  |  9  |  +  |
 	* |     |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  | Ent |  4  |  5  |  6  |  =  |
 	* |Shift|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |Shift| Up  |  1  |  2  |  3  | Ent |
-	* |Ctrl | Win | Alt |     |Lower| Spc | Spc |Raise|     |Funk |     |Left |Down |Right|  0  | 00  |  .  |
+	* |Ctrl | Win | Alt |     | Spc |Lower|Raise| Spc |     |Funk |     |Left |Down |Right|  0  | 00  |  .  |
 	*/
 	
 	[_DEFLT] = {
@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		{ KC_TAB , KC_Q   , KC_W   , KC_E   , KC_R   , KC_T   , KC_Y   , KC_U   , KC_I   , KC_O   , KC_P   , KC_RBRC, KC_DEL , KC_P7  , KC_P8  , KC_P9  , KC_PPLS}, 
 		{ KC_NO  , KC_A   , KC_S   , KC_D   , KC_F   , KC_G   , KC_H   , KC_J   , KC_K   , KC_L   , KC_SCLN, KC_QUOT, KC_ENT , KC_P4  , KC_P5  , KC_P6  , KC_EQL }, 
 		{ KC_LSFT, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   , KC_N   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT, KC_UP  , KC_P1  , KC_P2  , KC_P3  , KC_ENT }, 
-		{ KC_LCTL, KC_LGUI, KC_LALT, KC_NO  , MO(1)  , KC_SPC , KC_SPC , MO(2)  , KC_NO  , MO(3)  , KC_NO  , KC_LEFT, KC_DOWN, KC_RGHT, KC_P0  , M(0)   , KC_PDOT},
+		{ KC_LCTL, KC_LGUI, KC_LALT, KC_NO  , KC_SPC , MO(1)  , MO(2)  , KC_SPC , KC_NO  , MO(3)  , KC_NO  , KC_LEFT, KC_DOWN, KC_RGHT, KC_P0  , M(0)   , KC_PDOT},
 	},
 	
 	/* Layer 1, lower layer
